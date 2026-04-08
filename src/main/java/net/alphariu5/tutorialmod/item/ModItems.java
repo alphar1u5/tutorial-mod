@@ -3,26 +3,25 @@ package net.alphariu5.tutorialmod.item;
 import net.alphariu5.tutorialmod.TutorialMod;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item DIVIANITE = registerItem("divianite_shard", new Item(new Item.Settings()));
-    public static final Item RAW_DIVIANITE = registerItem("raw_divianite", new Item(new Item.Settings()));
+    public static final Item CHRISTAL = registerItem("christal_shard", new Item(new Item.Settings()));
+    public static final Item RAW_CHRISTAL = registerItem("raw_christal", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
     }
 
-    public static void  registerModItems() {
+    public static void registerModItems() {
         TutorialMod.LOGGER.info("Registering Mod Items for " + TutorialMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(DIVIANITE);
-            fabricItemGroupEntries.add(RAW_DIVIANITE);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(CHRISTAL);
+            entries.add(RAW_CHRISTAL);
         });
     }
 }
