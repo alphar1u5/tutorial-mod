@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorial-mod",
+	"version": "${version}",
+	"name": "Tutorial Mod",
+	"description": "The Tutorial mod description",
+	"authors": [
+		"alphariu5"
+	],
+	"contact": {
+		"homepage": "Coming Soon",
+		"sources": "Coming Soon"
+	},
+	"license": "MIT",
+	"icon": "assets/tutorial-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.alphariu5.tutorialmod.TutorialMod"
+		],
+		"fabric-datagen": [
+			"net.alphariu5.tutorialmod.TutorialModDataGenerator"
+		],
+        "client": [
+          "net.alphariu5.tutorialmod.TutorialModClient"
+        ]
+	},
+	"mixins": [
+		"tutorial-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.6",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
