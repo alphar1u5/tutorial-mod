@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.08,
+  "group": "christal_shard",
+  "ingredient": {
+    "item": "tutorial-mod:raw_christal"
+  },
+  "result": {
+    "id": "tutorial-mod:christal_shard"
+  }
+}

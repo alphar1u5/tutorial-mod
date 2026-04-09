@@ -1,5 +1,12 @@
 {
   "item.tutorial-mod.christal_shard": "Christal",
   "item.tutorial-mod.raw_christal": "Raw Christal",
-  "block.tutorial-mod.gdc_block": "BLOQUE DE CONSOMÉ"
+
+  "block.tutorial-mod.gdc_block": "BLOQUE DE CONSOMÉ",
+  "block.tutorial-mod.gdc_prime_block": "BLOQUE PRIMIGENEO DE CONSOMÉ",
+  "block.tutorial-mod.drifting_block": "Bloque del Drifter Chud",
+
+  "itemgroup.tutorial-mod.tutorial_items": "Tutorial Items",
+  "itemgroup.tutorial-mod.tutorial_blocks": "Tutorial Blocks"
+
 }

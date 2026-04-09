@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.2,
+  "group": "christal_shard",
+  "ingredient": {
+    "item": "tutorial-mod:raw_christal"
+  },
+  "result": {
+    "id": "tutorial-mod:christal_shard"
+  }
+}
