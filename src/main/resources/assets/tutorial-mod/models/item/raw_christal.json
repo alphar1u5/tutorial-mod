@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tutorialmod:item/raw_christal"
+    "layer0": "tutorial-mod:item/raw_christal"
   }
 }
